@@ -19,14 +19,27 @@
 
 ## Переменные окружения
 
-- `YM_OAUTH_TOKEN`
-- `YM_COUNTER_SBL`
-- `YM_COUNTER_PRO`
-- `YM_COUNTER_CIB`
-- `YM_COUNTER_INDIA`
-- `YM_COUNTER_LEGAL`
-- `SMTP_LOGIN`
-- `SMTP_PASSWORD`
-- `EMAIL_TO`
+Создайте файл `.env` в корне проекта и укажите в нем следующие переменные:
+
+```env
+YM_OAUTH_TOKEN=
+
+YM_COUNTER_1=
+YM_COUNTER_2=
+YM_COUNTER_3=
+YM_COUNTER_4=
+YM_COUNTER_5=
+
+SMTP_LOGIN=
+SMTP_PASSWORD=
+EMAIL_TO=
+
+Где:
+
+YM_OAUTH_TOKEN — OAuth-токен для API Яндекс Метрики
+YM_COUNTER_1 ... YM_COUNTER_5 — ID счетчиков, которые нужно мониторить
+SMTP_LOGIN — логин почты отправителя
+SMTP_PASSWORD — пароль или пароль приложения для почты
+EMAIL_TO — почта получателя уведомлений
 
 
