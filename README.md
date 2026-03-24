@@ -6,8 +6,8 @@
 
 ## Состав проекта
 
-- `src/metrika_monitor.py` — логика проверки счетчиков и отправки письма
-- `dags/ym_counters_monitoring.py` — DAG для Airflow
+- `metrika_monitor.py` — логика проверки счетчиков и отправки письма
+- `ym_counters_monitoring.py` — DAG для Airflow
 
 ## Как работает
 
@@ -29,7 +29,4 @@
 - `SMTP_PASSWORD`
 - `EMAIL_TO`
 
-## Запуск
 
-```bash
-python src/metrika_monitor.py
